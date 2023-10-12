@@ -5,7 +5,7 @@ export const navLinks = [
   { text: "Stories", to: "/stories" },
   { text: "Contact", to: "/contact" },
   { text: "Careers", to: "/careers" },
-  { text: "About us", to: "/about us" },
+  { text: "About us", to: "#about" },
 ];
 
 export const aboutSection = [

@@ -6,7 +6,8 @@ export default {
       colors: {
         linkColors: '#ffffff', // header navbar colors
         activeBgColors: '#58C08E', // header navbar colors
-        Rectbg: '#FEFAFA' 
+        Rectbg: '#FEFAFA' ,
+        footerPara: '#F5F5F5'
        
       },
       

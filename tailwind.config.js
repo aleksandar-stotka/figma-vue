@@ -9,15 +9,13 @@ export default {
         Rectbg: '#FEFAFA' ,
         footerPara: '#F5F5F5',
         aboutBg: "#FFE17A",
-        'custom-yellow': '#FFE17A',
-        'midnight': '#121063',
-      'metal': '#565584',
-      'tahiti': '#3ab7bf',
-      'silver': '#ecebff',
-      'bubble-gum': '#ff77e9',
-      'bermuda': '#78dcca',
+        
         
        
+      },
+      backgroundImage: {
+        'hero-pattern': "url('~/assets/images/contact.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
       },
     
       

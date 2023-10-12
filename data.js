@@ -22,3 +22,15 @@ export const aboutSection = [
     icon:"icon"
   },
 ];
+
+export const team = [
+  {
+    url: "/public/girls.png",
+  },
+  {
+    titleOne: "Join our team",
+    titleTwo: "Tincidunt tortor aliquam.",
+    text: "Ornare quam viverra orci sagittis eu volutpat odio facilisis. Purus non enim praesent elementum facilisis leo vel fringilla est. Euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue.",
+    icon:"icon"
+  },
+]

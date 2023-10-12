@@ -1,6 +1,6 @@
 <template>
     
-        <header class="w-3/4 h-[919px] mx-auto">
+        <header class="w-3/4 h-[919px] mx-auto bg-cover bg-center bg-no-repeat  sm:w-20rem md:w-15rem lg:w-20rem xl:w-10rem"  style="background-image: url('man.png')" >
             
       <nav class="p-4">
         <div class="container mx-auto flex justify-between items-center">
@@ -44,11 +44,5 @@ export default {
 </script>
 
 <style  scoped>
-header {
-  background-image: url("~/assets/images/Rectangle 12.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 </style>

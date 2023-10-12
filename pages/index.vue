@@ -1,19 +1,18 @@
 <template>
-    <div>
-        <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <div class="text-customGreen">This is a custom green color background.</div>
-
+    <div class="w-3/4 mx-auto">
+    <AboutUs/>
     </div>
 </template>
 
 <script>
-export default {
-   setup() {
-  
+import AboutUs from '~/components/AboutUs.vue';
 
-   }
+export default {
+  components: {
+    AboutUs
+
+  },
+ 
 };
 </script>
 

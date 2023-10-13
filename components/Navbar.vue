@@ -8,6 +8,8 @@
         </div>
       </span>
     </div>
+  
+    
 
     <span
       @click="MenuOpen()"
@@ -19,7 +21,7 @@
     </span>
 
     <ul
-      class="md:flex md:items-center z-40 lg:bg-transparent md:px-0 px-6 md:pb-0 pb-10 md:static absolute bg-gray-900 md:w-auto w-full top-14 duration-100 easy-in"
+      class="md:flex md:items-center z-40 lg:bg-transparent h-full md:px-0 px-6 md:pb-0 pb-10 md:static absolute bg-black md:w-auto w-full top-14 duration-100 easy-in"
       :class="[open ? 'left-0' : 'left-[-100%]']"
     >
       <div v-if="open">
@@ -28,13 +30,15 @@
 
       <li class="md:mx-4 md:my-0 my-6" v-for="link in navLinks" :key="link">
         <a
-          class="text-xl text-white hover:bg-activeBgColors rounden p-2"
+          class="text-xl text-white hover:bg-activeBgColors rounded-md sm:text-lg font-semibold p-2"
           :href="link.link"
           >{{ link.text }}</a
         >
       </li>
     </ul>
+    
   </div>
+  
 </template>
 
 <script>

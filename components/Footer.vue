@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-black py-20 grid sm:grid-cols-3 lg:grid-cols-3 h-[60rem] gap-10 bg-black"
+    class="bg-black py-20 grid sm:grid-cols-3 lg:grid-cols-3 h-auto gap-10 bg-black"
     id="footer"
   >
     <div>

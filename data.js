@@ -1,10 +1,11 @@
+
 export const navLinks = [
-  { text: "Creative Labs" },
-  { text: "Work", href: "#home" },
-  { text: "What to do" },
+  
+  { text: "Work", link: "#home" },
+  { text: "What to do" ,link:"#toDo" },
   { text: "Stories", to: "/stories" },
-  { text: "Contact", to: "/contact" },
-  { text: "Careers", to: "/careers" },
+  { text: "Contact", href: "#form" },
+  {text: "Careers", to: "/careers" },
   { text: "About us", to: "#about" },
 ];
 

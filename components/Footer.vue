@@ -33,9 +33,9 @@
         <li class="text-white flex flex-col p-10">
           Contact us <br>Creative Labs <br>
            Pelagonka 2 <br>
-            Bitola, Macedonia <br>
+           Bitola, Macedonia <br>
 
-          hi@creativelabs.se  <br>
+          hi@creativelabs.se <br>
            LinkedIn
         </li>
      

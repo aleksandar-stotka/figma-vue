@@ -1,48 +1,42 @@
 <template>
-    
-        <header class="w-3/4 h-[919px] mx-auto bg-cover bg-center bg-no-repeat  sm:w-20rem md:w-15rem lg:w-20rem xl:w-10rem"  style="background-image: url('man.png')" >
-            
-      <nav class="p-4">
-        <div class="container mx-auto flex justify-between items-center">
-          <div class="flex items-center space-x-4">
-            <img src="@/assets/images/logo2.png" alt="Logo" />
-            <img src="@/assets/images/logo.png" alt="img" class="w-150 h-119" />
-          </div>
-
-          <div class="basis-3/6 flex space-x-5">
-            <div v-for="(link, index) in linksSource" :key="index">
-              <router-link
-                class="text-linkColors w-106 h-41 leading-relaxed hover:bg-activeBgColors hover:rounded-full p-2"
-                :to="link"
-                target="_blank"
-                >{{ link.text }}</router-link
-              >
-            </div>
-          </div>
-        </div>
-        <div class="bg-Rectbg w-[512px] h-[226px] float-right mr-5">ansans</div>
-      </nav>
-    </header>
-    
+  <header
+    class="w-3/4 h-[919px] mx-auto bg-cover bg-center bg-no-repeat sm:w-20rem md:w-15rem lg:w-20rem xl:w-10rem"
+    style="background-image: url('man.png')"
+  >
+   <Navbar/>
+     <div class="absolute bottom-10 w-1/2 overflow-hidden p-4">
+        <h1 class="lg:text-5xl md:text-xs p-5  text-white font-black p-2">
+          Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor
+          incididunt.
+        </h1>
+        <p class="text-white  p-2">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia.
+        </p>
+      </div>
+  </header>
 </template>
 
 <script>
-import { navLinks } from '~/data';
-export default {
-    name: 'FigmaDesignHeader',
 
-    data() {
+import Navbar from "./Navbar.vue";
+export default {
+  name: "FigmaDesignHeader",
+ components: {
+    Navbar
+ },
+  data() {
     return {
-      linksSource: navLinks,
+    
+    
       
     };
   },
 
-
-   
 };
 </script>
 
-<style  scoped>
-
-</style>
+<style scoped></style>

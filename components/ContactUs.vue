@@ -35,11 +35,17 @@
         Condimentum id venenatis a condimentum vitae.<br>
         <br>
         Urna neque viverra justo
-        nec ultrices dui sapien. Faucibus nisl tincidunt eget nullam. Maecenas
+        nec ultrices dui sapien. Faucibus nisl tincidunt  eget nullam. Maecenas
         ultricies mi eget mauris pharetra.
       </p>
+     
 
       </div>
+      <div class="flex-col float-right">
+        <h1 class="font-bold ">We’re hiring</h1>
+      <h1 class="p-4 text-red-500 font-bold ">---------></h1>
+      </div>
+      
       
       
     </div>

@@ -1,6 +1,6 @@
 <template>
   <section id="form" class="p-20 flex items-center">
-    <form class="w-full max-w-lg w-[500rem]">
+    <form class="w-full max-w-lg w-[600rem]">
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
           <input
@@ -33,7 +33,7 @@
             placeholder=" Message"
           ></textarea>
           <button
-            class="bg-green-500 text-white font-bold py-2 px-4 rounded float-right w-[10rem] h-[3rem]"
+            class="bg-green-500 text-white  font-bold py-2 px-4 rounded float-right w-[10rem] h-[3rem]"
           >
             Send
           </button>

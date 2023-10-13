@@ -17,14 +17,17 @@
         commitment to delivering exceptional results for their clients on a
         global scale.
       </p>
-    </div>
+    </div>  
     <div class="p-10 ml-10">
+      <h1 class="text-white font-bold">Ceative labs</h1>
       <div v-for="(link, index) in linksSource" :key="index">
+      
         <router-link
           class="text-linkColors w-106 h-41 leading-relaxed hover:bg-activeBgColors hover:rounded p-2"
           :to="link"
           target="_blank"
           >{{ link.text }}</router-link
+          
         >
       </div>
     </div>
@@ -40,6 +43,7 @@
         </li>
      
     </div>
+    <p class="text-white p-4  ">© COPYRIGHT 2023 Creative Labs. All rights reserved. Privacy policy   |  Cookie policy </p>
   </section>
 </template>
 

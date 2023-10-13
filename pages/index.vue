@@ -1,5 +1,6 @@
 <template>
-    <div class="w-3/4 mx-auto p-0">
+    <div class="w-3/4 mx-auto  p-0">
+     
     <AboutUs/>
     <ContactUs/>
   
@@ -13,6 +14,7 @@ export default {
   components: {
     AboutUs,
     ContactUs,
+  
   
 
   },

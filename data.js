@@ -1,11 +1,11 @@
 
 export const navLinks = [
   
-  { text: "Work", link: "#home" },
-  { text: "What to do" ,link:"#HOME" },
-  { text: "Stories", link: "/stories" },
+  { text: "Work", link: "#" },
+  { text: "What we do" ,link:"#team" },
+  { text: "Stories", link: "#stories" },
   { text: "Contact", link: "#form" },
-  {text: "Careers", link: "/careers" },
+  {text: "Careers", link: "#careers" },
   { text: "About us", link: "#about" },
 ];
 

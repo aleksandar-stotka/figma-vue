@@ -9,7 +9,7 @@
             <img src="@/assets/images/logo.png" alt="img" class="w-150 h-119" />
           </div>
         
-      <p class="text-footerPara pl-10">
+      <p class="text-white pl-10">
         Creative Labs, a web agency based in Sweden, is expanding its reach and
         opening a new office in Macedonia. The agency is well-known for
         providing cutting-edge solutions to businesses across a wide range of
@@ -23,7 +23,7 @@
       <div v-for="(link, index) in linksSource" :key="index">
       
         <router-link
-          class="text-linkColors w-106 h-41 leading-relaxed hover:bg-activeBgColors hover:rounded p-2"
+          class="text-white w-106 h-41 leading-relaxed hover:bg-activeBgColors hover:rounded p-2"
           :to="link"
           target="_blank"
           >{{ link.text }}</router-link

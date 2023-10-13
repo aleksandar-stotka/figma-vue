@@ -6,6 +6,10 @@ export default defineNuxtConfig({
   alias : {
     assets: "/<rootDir></assets"
   },
+  css: [
+    'bootstrap-icons/font/bootstrap-icons.css', // Import Bootstrap Icons CSS
+    // Other CSS files if needed
+  ],
 
 
 })

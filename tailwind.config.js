@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        heroBg:'#fafaf9'
+        heroBg:'#fafaf9',
         linkColors: '#ffffff', // header navbar colors
         activeBgColors: '#9DD2B8', // header navbar colors
         Rectbg: '#FEFAFA' ,

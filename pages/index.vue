@@ -3,14 +3,18 @@
      
     <AboutUs/>
     <ContactUs/>
-  <p>{{ menus }}</p>
+    <div v-for="menu in menus.data" :key="menu.id">
+      <p>Ingredients: {{ menu.attributes.ingrediants }}</p>
+      <p>Price: {{ menu.attributes.price }}</p>
+      <!-- Display other attributes here -->
+    </div>
     </div>
 </template>
 
-<script>
+<script >
 import AboutUs from '~/components/AboutUs.vue';
 import ContactUs from '~/components/ContactUs.vue';
-import gql from "graphql-tag"
+import {GET_MENUS_QUERY} from "@/apollo/index/menuQueries"
 export default {
   components: {
     AboutUs,
@@ -19,29 +23,15 @@ export default {
   },
   data() {
     return {
-      menus:[]
-    }
+      menus: [],
+    };
   },
   apollo: {
     menus: {
-      query: gql`
-      query  {
-menus {
-  data {
-    id,
-    attributes{
-      ingrediants,
-      price,
-      
-    }
-}
-}
-}
-         
-      `
-    }
-
-  }
+      query: GET_MENUS_QUERY, // Use the imported query
+      // Apollo options
+    },
+  },
 }
 
 

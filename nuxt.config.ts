@@ -1,15 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from 'nuxt/config'
+
 export default defineNuxtConfig({
-  modules: [
-    '@nuxtjs/tailwindcss'
-  ],
-  alias : {
-    assets: "/<rootDir></assets"
+  modules: ['@nuxtjs/apollo'],
+
+  apollo: {
+    clients: {
+      default: {
+        httpEndpoint: 'http://localhost:1337/graphql'
+      }
+    },
   },
-  css: [
-    'bootstrap-icons/font/bootstrap-icons.css', // Import Bootstrap Icons CSS
-    // Other CSS files if needed
-  ],
-
-
 })
+
+
+//'@nuxtjs/tailwindcss',

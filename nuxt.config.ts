@@ -2,7 +2,7 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/apollo'],
+  modules: ['@nuxtjs/apollo','@nuxtjs/tailwindcss'],
 
   apollo: {
     clients: {
@@ -14,4 +14,4 @@ export default defineNuxtConfig({
 })
 
 
-//'@nuxtjs/tailwindcss',
+//,

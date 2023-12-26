@@ -1,0 +1,12 @@
+query  {
+menus {
+  data {
+    id,
+    attributes{
+      ingrediants,
+      price,
+      
+    }
+}
+}
+}

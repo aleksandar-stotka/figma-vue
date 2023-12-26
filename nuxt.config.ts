@@ -4,6 +4,7 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   modules: ['@nuxtjs/apollo','@nuxtjs/tailwindcss'],
 
+
   apollo: {
     clients: {
       default: {

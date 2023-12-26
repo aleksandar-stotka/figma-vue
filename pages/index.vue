@@ -3,27 +3,48 @@
      
     <AboutUs/>
     <ContactUs/>
-  
+  <p>{{ menus }}</p>
     </div>
 </template>
 
-<script setup>
+<script>
 import AboutUs from '~/components/AboutUs.vue';
 import ContactUs from '~/components/ContactUs.vue';
-import {ref,onMounted} from "vue"
-   const url = "http://localhost:1337/api/menus"
-  
-  const fetcData = async () => {
-    const res = await fetch(url)
-    const data = await res.json()
-    console.log(data,'data')
+import gql from "graphql-tag"
+export default {
+  components: {
+    AboutUs,
+    ContactUs,
+
+  },
+  data() {
+    return {
+      menus:[]
+    }
+  },
+  apollo: {
+    menus: {
+      query: gql`
+      query  {
+menus {
+  data {
+    id,
+    attributes{
+      ingrediants,
+      price,
+      
+    }
+}
+}
+}
+         
+      `
+    }
+
   }
+}
 
-  onMounted(() => {
 
-    fetcData()
-
-  })
  
  
  

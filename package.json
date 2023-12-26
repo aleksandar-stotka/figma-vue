@@ -24,6 +24,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "bootstrap-icons": "^1.11.1",
+    "graphql-tag": "^2.12.6",
     "nanoid": "^5.0.1",
     "vue-feather-icons": "^5.1.0"
   }

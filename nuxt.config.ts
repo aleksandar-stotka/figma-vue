@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   apollo: {
     clients: {
       default: {
-        httpEndpoint: 'http://localhost:1337/graphql'
+        httpEndpoint: 'http://localhost:1337/graphql?populate=image'
       }
     },
   },
